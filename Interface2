@@ -1,0 +1,9 @@
+<?php
+   interface ATM{
+     public function tarik_tunai();
+     public function transfer();
+     public function rekening();
+     public function pembayaran();
+   }
+
+ ?>
