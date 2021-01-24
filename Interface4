@@ -1,0 +1,18 @@
+<?php
+  interface ATM{
+    public function tarik_tunai();
+    public function transfer();
+  }
+  class Bank implements ATM{
+    public function tarik_tunai(){
+      return "tarik tunai...";
+    }
+    public function transfer(){
+      return "transfer...";
+    }
+  }
+  
+  $Bank_baru = new Bank();
+  echo $Bank_baru->tarik_tunai();
+  //tarik tunai...
+ ?>
