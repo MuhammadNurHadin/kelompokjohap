@@ -1,0 +1,11 @@
+<?php
+   interface ATM{
+     }
+   class Bank implements ATM{
+     //tarik tunai, transfer
+   }
+   class card implements ATM{
+     //PIN
+   }
+   
+ ?>
