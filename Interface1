@@ -1,0 +1,6 @@
+<?php
+   interface ATM
+   {
+     //tarik tunai dan transfer
+   }
+ ?>
